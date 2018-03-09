@@ -4,7 +4,7 @@
   "description": "A way to get packaged files without npm pack",
   "bin": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "keywords": ["npm", "pack", "packlist", "cli"],
   "files": ["index.js"],
