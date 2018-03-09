@@ -1,0 +1,17 @@
+{
+  "name": "npm-packlist-cli",
+  "version": "1.0.0",
+  "description": "A way to get packaged files without npm pack",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["npm", "pack", "packlist", "cli"],
+  "files": ["index.js"],
+  "author": "IML Team",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "npm-packlist": "^1.1.10"
+  }
+}
