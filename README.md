@@ -1,6 +1,6 @@
 # npm-packlist-cli
 
-A way to get packaged files without npm pack.
+A way to list packaged files without running `npm pack`.
 
 ## usage
 
