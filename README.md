@@ -1,5 +1,7 @@
 # npm-packlist-cli
 
+[![Build Status](https://travis-ci.org/intel-hpdd/npm-packlist-cli.svg?branch=master)](https://travis-ci.org/intel-hpdd/npm-packlist-cli)
+
 A way to list packaged files without running `npm pack`.
 
 ## usage
