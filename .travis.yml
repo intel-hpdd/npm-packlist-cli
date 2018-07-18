@@ -1,13 +1,5 @@
 jobs:
   include:
-    - stage: test
-      language: generic
-      env: Type='virus scan'
-      sudo: required
-      script:
-        - sudo apt-get install clamav -y
-        - sudo freshclam
-        - clamscan --quiet -r ./
     - stage: deploy
       if: branch =~ ^v\d+\.\d+\.\d$
       language: node_js
